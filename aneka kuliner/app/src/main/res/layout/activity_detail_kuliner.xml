@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".DetilKuliner">
+
+    <ImageView
+        android:id="@+id/gambarterima"
+        android:layout_width="match_parent"
+        android:layout_height="189dp"
+        android:paddingTop="10dp" />
+
+    <TextView
+        android:id="@+id/nmmakanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nama kuliner : "
+        android:paddingLeft="15dp"
+        android:paddingTop="30dp"
+        android:paddingRight="15dp"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ketmakanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Deskripsi Makanan : "
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:paddingRight="15dp"
+        android:textAlignment="viewStart"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/hrgmakanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Harga : "
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:paddingRight="15dp"
+        android:textAlignment="viewStart"
+        android:textSize="20dp" />
+
+
+
+</LinearLayout>
