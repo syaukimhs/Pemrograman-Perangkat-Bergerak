@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:paddingTop="10dp"
+        android:text="My Biodata"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="3dp" />
+
+    <ImageView
+        android:id="@+id/nm_foto"
+        android:layout_width="match_parent"
+        android:layout_height="149dp"
+        android:src="@drawable/sy"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <TextView
+        android:id="@+id/nm_Nim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIM    : A11.2021.13290"
+        android:paddingLeft="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/nm_Nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama : Syauki Taufiqur Rahman"
+        android:paddingLeft="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Hobi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hobi   : Lari dan Bersepeda"
+        android:paddingLeft="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="Deskripsi: Perkenalkan nama saya syauki, saya merupakan mahasiswa semester 3 dari fakultas ilmu komputer program studi S1 Teknik Informatika"
+        android:textSize="16sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="3dp" />
+
+    <Button
+        android:id="@+id/btnAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="alamat"
+        android:text="Alamat" />
+
+    <Button
+        android:id="@+id/btnTlp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telepon" />
+
+    <Button
+        android:id="@+id/btnEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email" />
+
+</LinearLayout>
